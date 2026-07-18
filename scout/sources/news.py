@@ -1,4 +1,4 @@
-"""Google News RSS — funding announcements the structured sources miss.
+"""Google News RSS — funding announcements and fundraising intent.
 
 This is how a Singaporean synbio seed round or a Nordic diagnostics pre-seed
 shows up at all: no free structured source covers them. It is also by far the
@@ -34,13 +34,32 @@ QUERIES = [
     '"spinout" university biotech raises',
 ]
 
+# These are deliberately separate from completed-round queries.  A founder
+# saying a round is open (or will open shortly) is the rare public signal that
+# precedes Form D and the eventual funding announcement.
+INTENT_QUERIES = [
+    'biotech startup "raising a seed round"',
+    'biotech startup "currently raising" seed',
+    'biotech startup "open seed round"',
+    'biotech startup "opens its seed round"',
+    'biotech startup "seeking seed funding"',
+    'biotech startup "plans to raise" seed',
+    'biotech startup "preparing to raise" seed',
+    'therapeutics startup "raising" pre-seed',
+    'diagnostics startup "raising" seed round',
+    'synthetic biology startup "raising" seed round',
+]
+
 
 def fetch_headlines(session: requests.Session, lookback_days: int) -> list[dict]:
     """Return raw headline dicts. Company extraction happens in classify.py."""
     seen_links: set[str] = set()
     headlines: list[dict] = []
 
-    for query in QUERIES:
+    searches = [(query, "funding_news") for query in QUERIES]
+    searches.extend((query, "fundraising_intent") for query in INTENT_QUERIES)
+
+    for query, query_kind in searches:
         params = {
             "q": f"{query} when:{lookback_days}d",
             "hl": "en-US",
@@ -70,6 +89,7 @@ def fetch_headlines(session: requests.Session, lookback_days: int) -> list[dict]
                     "source": getattr(getattr(entry, "source", None), "title", ""),
                     "published": getattr(entry, "published", ""),
                     "observed_on": date.today(),
+                    "query_kind": query_kind,
                 }
             )
 

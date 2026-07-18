@@ -22,7 +22,8 @@ high-precision bar.
 | **bioRxiv / medRxiv** | Company-affiliated preprints (catches spinouts pre-raise) | Global |
 | **UK Companies House** | New biotech incorporations (needs a free API key) | UK |
 | **EU CORDIS** | Horizon Europe / EIC grant recipients | EU |
-| **Google News RSS** | Funding announcements the structured sources miss | Global |
+| **Google News RSS** | Explicit raising-now / planning-to-raise signals, plus funding announcements | Global |
+| **Y Combinator** | Active biotech companies in current/recent batches (pre-raise predictor) | Global |
 
 Coverage is deliberately lopsided toward the US, because that is where the best
 free *structured* data lives. The UK and EU are partially covered; everywhere
@@ -45,14 +46,18 @@ not a quality judgment. Two ways to clear the default threshold of 55:
 1. **Multi-source corroboration** — the same company in two independent sources
    in one week is almost never noise.
 2. **One strong single signal** — e.g. a first-time Form D from a recently
-   incorporated issuer raising a seed-sized round (the canonical pre-A event).
+   incorporated issuer raising a seed-sized round, or an explicit public report
+   that an early-stage biotech has opened or is preparing a round.
 
-A lone incorporation, a lone preprint, or a lone headline is recorded in the
-database but does **not** reach the digest. Investment funds and SPVs are dropped
-at the source (Form D pooled-investment filings are excluded outright).
+A lone incorporation, preprint, or ordinary funding headline is recorded in the
+database but does **not** reach the digest. A headline that explicitly says a
+round is open or being prepared can clear the bar after model verification.
+Investment funds and SPVs are dropped at the source (Form D pooled-investment
+filings are excluded outright).
 
 Tune without touching code via env vars: `MIN_SCORE`, `MAX_OFFERING_USD`,
-`MAX_COMPANY_AGE_YEARS`, `LOOKBACK_DAYS`, `MAX_DIGEST_ITEMS`.
+`MAX_COMPANY_AGE_YEARS`, `LOOKBACK_DAYS`, `MAX_DIGEST_ITEMS`,
+`YC_BATCH_MAX_AGE_YEARS`.
 
 ## Classification
 
@@ -120,7 +125,7 @@ ENABLE_SEC=false python -m scout.main --dry-run
 ```
 
 Env flags: `ENABLE_SEC`, `ENABLE_NIH`, `ENABLE_BIORXIV`,
-`ENABLE_COMPANIES_HOUSE`, `ENABLE_CORDIS`, `ENABLE_NEWS`.
+`ENABLE_COMPANIES_HOUSE`, `ENABLE_CORDIS`, `ENABLE_NEWS`, `ENABLE_YC`.
 
 ## Layout
 

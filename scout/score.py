@@ -17,6 +17,7 @@ environment to loosen or tighten this without touching code.
 from __future__ import annotations
 
 import logging
+import re
 from datetime import date
 
 from .config import Config
@@ -33,6 +34,7 @@ SOURCE_WEIGHTS = {
     "medrxiv": 15,
     "cordis": 20,          # EU equivalent of an SBIR, but coarser data
     "companies_house": 8,  # someone registered a company; weak alone
+    "yc": 35,              # recent cohort: strong pre-raise prior, not a financing event
 }
 
 CORROBORATION_BONUS = 30  # per additional independent source
@@ -81,6 +83,28 @@ def score(company: Company, config: Config) -> Company:
 
     # 4. SBIR/STTR Phase I is the earliest-stage grant signal.
     kinds = {s.kind for s in company.signals}
+    if "yc_recent_batch" in kinds:
+        batch_years = [
+            int(match.group(1))
+            for signal in company.signals
+            if signal.kind == "yc_recent_batch"
+            for match in [re.search(r"(\d{4})", signal.detail)]
+            if match
+        ]
+        if date.today().year in batch_years:
+            points += 25
+            reasons.append("Current-year YC batch (likely approaching or in fundraising)")
+        else:
+            points += 10
+            reasons.append("Recent YC batch (predictive fundraising signal)")
+
+    if "raising_now" in kinds:
+        points += 35
+        reasons.append("Explicit public signal that the round is currently open")
+    elif "planning_to_raise" in kinds:
+        points += 35
+        reasons.append("Explicit public signal that a raise is being prepared")
+
     if "sbir_phase_1" in kinds:
         points += 12
         reasons.append("SBIR/STTR Phase I award (earliest-stage grant)")

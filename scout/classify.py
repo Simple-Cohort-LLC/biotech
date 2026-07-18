@@ -74,7 +74,7 @@ CLASSIFY_SCHEMA = {
     "additionalProperties": False,
 }
 
-EXTRACT_SYSTEM = """You extract startup names from funding news headlines.
+EXTRACT_SYSTEM = """You extract startup names and fundraising status from news headlines.
 
 Return one record per headline that announces a specific, named, early-stage \
 life-sciences company raising money or launching. Skip the headline entirely if:
@@ -84,7 +84,17 @@ life-sciences company raising money or launching. Skip the headline entirely if:
 - it is not a life-sciences company
 
 Do not guess a company name from a vague headline. Returning fewer, correct \
-records is much better than returning speculative ones."""
+records is much better than returning speculative ones.
+
+Set fundraising_status to:
+- raising_now only when the headline explicitly says a round is open, underway, \
+currently raising, or seeking investors/funding
+- planning_to_raise only when it explicitly says the company plans, expects, or \
+is preparing to raise
+- announced when it reports a completed or announced financing
+- launch when it reports a launch or emergence from stealth without a financing
+
+Do not turn a completed raise into raising_now."""
 
 EXTRACT_SCHEMA = {
     "type": "object",
@@ -99,11 +109,15 @@ EXTRACT_SCHEMA = {
                     "country": {"type": "string"},
                     "sector": {"type": "string", "enum": SECTORS},
                     "round_stage": {"type": "string"},
+                    "fundraising_status": {
+                        "type": "string",
+                        "enum": ["raising_now", "planning_to_raise", "announced", "launch"],
+                    },
                     "summary": {"type": "string"},
                 },
                 "required": [
                     "headline_index", "company_name", "country",
-                    "sector", "round_stage", "summary",
+                    "sector", "round_stage", "fundraising_status", "summary",
                 ],
                 "additionalProperties": False,
             },
@@ -233,7 +247,12 @@ def extract_from_headlines(
     for start in range(0, len(headlines), BATCH_SIZE * 2):
         batch = headlines[start : start + BATCH_SIZE * 2]
         payload = [
-            {"headline_index": i, "headline": h["title"], "outlet": h.get("source", "")}
+            {
+                "headline_index": i,
+                "headline": h["title"],
+                "outlet": h.get("source", ""),
+                "discovery_query_kind": h.get("query_kind", "funding_news"),
+            }
             for i, h in enumerate(batch)
         ]
         result = _ask(
@@ -265,7 +284,11 @@ def extract_from_headlines(
             company.signals.append(
                 Signal(
                     source="news",
-                    kind="funding_news",
+                    kind={
+                        "raising_now": "raising_now",
+                        "planning_to_raise": "planning_to_raise",
+                        "launch": "company_launch",
+                    }.get(item.get("fundraising_status"), "funding_news"),
                     title=headline["title"][:300],
                     url=headline["url"],
                     observed_on=headline.get("observed_on") or date.today(),

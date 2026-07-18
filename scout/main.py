@@ -12,7 +12,7 @@ from .config import CONFIG, Config
 from .db import Store
 from .http import build_session
 from .models import Company
-from .sources import biorxiv, companies_house, cordis, news, nih, sec_formd
+from .sources import biorxiv, companies_house, cordis, news, nih, sec_formd, yc
 
 log = logging.getLogger("scout")
 
@@ -43,6 +43,11 @@ def collect(session, config: Config) -> tuple[list[Company], list[dict], dict[st
             lambda: companies_house.fetch(session, config.lookback_days, config.companies_house_key),
         ),
         ("cordis", config.enable_cordis, lambda: cordis.fetch(session, config.lookback_days)),
+        (
+            "yc",
+            config.enable_yc,
+            lambda: yc.fetch(session, config.yc_batch_max_age_years),
+        ),
     ]
 
     for name, enabled, run in sources:

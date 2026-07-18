@@ -45,6 +45,11 @@ class Config:
     # Minimum score to appear in the digest. See scout/score.py for the rubric.
     min_score: int = field(default_factory=lambda: _int("MIN_SCORE", 55))
     max_digest_items: int = field(default_factory=lambda: _int("MAX_DIGEST_ITEMS", 25))
+    # Include active YC biotech companies from this many prior calendar years.
+    # One captures the current cohort plus the immediately preceding batches.
+    yc_batch_max_age_years: int = field(
+        default_factory=lambda: _int("YC_BATCH_MAX_AGE_YEARS", 1)
+    )
 
     anthropic_api_key: str | None = field(
         default_factory=lambda: os.environ.get("ANTHROPIC_API_KEY")
@@ -80,6 +85,7 @@ class Config:
     )
     enable_cordis: bool = field(default_factory=lambda: _flag("ENABLE_CORDIS"))
     enable_news: bool = field(default_factory=lambda: _flag("ENABLE_NEWS"))
+    enable_yc: bool = field(default_factory=lambda: _flag("ENABLE_YC"))
 
 
 CONFIG = Config()
