@@ -1,64 +1,88 @@
 name,country,sector,score,sources,summary,website,first_seen_on,reported_on
-"Strucvue Medical, Inc.",US,medtech-and-devices,62,sec_form_d,"'Medical' health care filer; name suggests structural/imaging device work, but text offers no specifics.",,2026-07-17,2026-07-17
-"LYNCH REGENERATIVE MEDICINE, LLC",US,therapeutics,60,sec_form_d,Regenerative medicine LLC under 'Other Health Care'; text does not detail its specific products or programs.,,2026-07-17,2026-07-17
-Neurofold Therapeutics Inc.,US,therapeutics,60,sec_form_d,Biotechnology Form D issuer; name suggests neuroscience therapeutics but text provides no detail.,,2026-07-17,2026-07-17
-CellTrack Corp,US,unknown,57,sec_form_d,Form D filer under Biotechnology; text gives no detail on what the company actually does.,,2026-07-17,2026-07-17
-"Headlands Holdco, LLC",US,unknown,57,sec_form_d,"'Holdco' LLC filed under Biotechnology; likely a holding entity, and text gives no operating description.",,2026-07-17,2026-07-17
-"Sinopia Biosciences, Inc.",US,therapeutics,55,sec_form_d,Biosciences Form D filer under Biotechnology; text does not describe its therapeutic focus.,,2026-07-17,2026-07-17
-"Cellular Logistics, Inc.",US,therapeutics,55,sec_form_d,"Biotechnology filer; name suggests cell/tissue delivery work, but text provides no description.",,2026-07-17,2026-07-17
-"Silo Pharma, Inc.",US,therapeutics,55,sec_form_d,Pharmaceuticals Form D issuer; name indicates a drug developer but text provides no specifics.,,2026-07-17,2026-07-17
+Illume Labs,US,digital-health,77,yc,"AI personal health/longevity companion integrating wearables, blood panels, and genomic data to deliver personalized insights via text.",https://www.illumelabs.ai,2026-07-18,2026-07-18
+Molagri,CA,ag-and-food-tech,77,yc,"Developing target-specific biopesticides that kill pest insects while sparing pollinators, with resistance-anticipating design.",https://molagri.com,2026-07-18,2026-07-18
+10x Science,US,techbio-and-bioinformatics,77,yc,AI-native platform automating next-generation protein characterization to help drug developers prioritize therapeutic candidates.,https://10xscience.com,2026-07-18,2026-07-18
+"Aspicio Therapeutics, Inc.",US,therapeutics,62,sec_form_d,Therapeutics-named company filed under Other Health Care; text does not describe its actual programs.,,2026-07-18,2026-07-18
+Anto Biosciences,US,techbio-and-bioinformatics,62,yc,Building a foundation model for gut microbial communities to predict drug toxicity/efficacy and re-engineer drugs across populations.,https://www.anto.bio/,2026-07-18,2026-07-18
+Play Health,US,digital-health,62,yc,"Perimenopause care platform integrating symptom, medication, and lifestyle data to generate AI insights and clinical protocols for providers.",http://playhealth.com,2026-07-18,2026-07-18
+Panoptive,US,digital-health,62,yc,"AI platform that structures clinical trial monitoring data into deviation, safety, and quality findings with audit-ready oversight trails.",https://www.panoptive.com,2026-07-18,2026-07-18
+Convexia,US,therapeutics,62,yc,"AI-maximalist pharma company using agents to source, evaluate, and run clinical trials for drug candidates faster and leaner.",https://convexia.bio,2026-07-18,2026-07-18
+Bramante,US,tools-and-instruments,62,yc,"Manufactures life-sciences instruments and reagents purpose-built for AI-driven, automated labs and personalized medicine.",https://www.bramantebio.com,2026-07-18,2026-07-18
+Frekil,IN,techbio-and-bioinformatics,62,yc,"Platform that accelerates real-world evidence generation from fragmented clinical data, running end-to-end studies in minutes.",https://www.frekil.com,2026-07-18,2026-07-18
+Delineate,US,techbio-and-bioinformatics,62,yc,AI agents that design clinical trials faster by processing existing trial research into specialized datasets.,https://delineate.pro/,2026-07-18,2026-07-18
+Exin Therapeutics,US,therapeutics,62,yc,"AI-driven drug discovery for neurotherapeutics targeting epilepsy in autism and Parkinson's, guided by high-throughput mouse data.",https://www.exintherapeutics.com/,2026-07-18,2026-07-18
+TwentyTwo,US,techbio-and-bioinformatics,57,yc,Building AI infrastructure and a defensive stack for biosecurity to prevent AI-enabled bioengineered pandemics.,https://twentytwo.bio/,2026-07-18,2026-07-18
+Synthio Labs,US,digital-health,57,yc,"Agentic AI platform enabling compliant engagement across HCPs, patients, and field teams for pharma go-to-market teams.",https://synthiolabs.com/,2026-07-18,2026-07-18
+Principal Technologies Inc.,US,unknown,45,sec_form_d,Filed as Biotechnology but text gives no detail on what the company actually does.,,2026-07-18,
+Neuble AI,South Korea,diagnostics,25,news,South Korean startup advancing AI-powered brain diagnostics; raised $269K seed.,,2026-07-18,
+NaturLoop,unknown,industrial-biotech,25,news,"Company making coconut-husk based panels, shipping first products to paying customers.",,2026-07-18,
+Salus Biomed Inc Ltd,US,techbio-and-bioinformatics,20,biorxiv,"Builds a language-model framework (OCellus) for single-cell, spatial, and perturbation biology with natural-language reasoning.",,2026-07-18,
+Avipero Ltd,US,therapeutics,20,biorxiv,"Developing an allosteric anti-β1-integrin antibody (JB1a) to protect cartilage and treat inflammatory/rheumatoid arthritis, shown effective in mouse models.",,2026-07-18,
+"VCGT Inc., Kobe, Japan",US,therapeutics,20,biorxiv,Developing AAV-delivered zinc-finger-nuclease mutation-agnostic gene insertion therapy for RHO-associated autosomal dominant retinitis pigmentosa.,,2026-07-18,
+Intron Health; BioRAMP,US,digital-health,20,medrxiv,Building multilingual clinical speech/LLM tools and benchmarks for point-of-care decision support for frontline health workers in Nigeria.,,2026-07-18,
+PrecisionLife Ltd,US,techbio-and-bioinformatics,20,medrxiv,"Combinatorial genetic analytics platform identifying multi-SNP disease signatures and drug-repurposing targets, applied here to endometriosis.",,2026-07-18,
+Amplifier Health Inc.,US,digital-health,20,medrxiv,Using acoustic/voice analysis of ambient clinical conversations to triage respiratory illness in primary care.,,2026-07-18,
+"Gene III Biotechnology Co., Ltd Nanjing, CN",US,therapeutics,15,medrxiv,"Markets L-ergothioneine antioxidant supplement capsules, tested here for postpartum fatigue and sleep; nutraceutical company.",,2026-07-18,
+"Strucvue Medical, Inc.",US,medtech-and-devices,62,sec_form_d,Medical company Form D issuer; name suggests structural/medical devices but text gives no specifics.,,2026-07-17,2026-07-17
+"LYNCH REGENERATIVE MEDICINE, LLC",US,therapeutics,60,sec_form_d,An LLC filed under Other Health Care; name indicates regenerative medicine but text gives no specifics.,,2026-07-17,2026-07-17
+Neurofold Therapeutics Inc.,US,therapeutics,60,sec_form_d,Biotechnology Form D issuer named Neurofold Therapeutics; likely neurology therapeutics but text lacks specifics.,,2026-07-17,2026-07-17
+CellTrack Corp,US,unknown,57,sec_form_d,Filed as Biotechnology; name hints at cell tracking but text gives no actual detail.,,2026-07-17,2026-07-17
+"Headlands Holdco, LLC",US,unknown,57,sec_form_d,A holding company filed under Biotechnology; text provides no detail on any actual products or programs.,,2026-07-17,2026-07-17
+"Sinopia Biosciences, Inc.",US,therapeutics,55,sec_form_d,Sinopia Biosciences filed as Biotechnology; text gives no specifics on its drug programs.,,2026-07-17,2026-07-17
+"Cellular Logistics, Inc.",US,therapeutics,55,sec_form_d,Cellular Logistics filed as Biotechnology; likely regenerative/cell therapy but text gives no detail.,,2026-07-17,2026-07-17
+"Silo Pharma, Inc.",US,therapeutics,55,sec_form_d,Pharmaceuticals Form D issuer; likely drug development but text provides no specifics.,,2026-07-17,2026-07-17
 "Yuvo, Inc.",US,digital-health,55,sec_form_d,Health-care Form D issuer; Yuvo is associated with community clinic support but text gives no detail.,,2026-07-17,2026-07-17
-"Sailie Bio, Inc.",US,unknown,52,sec_form_d,Biotechnology Form D issuer with no descriptive detail about its focus.,,2026-07-17,
+"SelSym Biotech, Inc.",US,therapeutics,55,sec_form_d,Biotechnology Form D issuer; text does not specify what the company does beyond the biotechnology industry group.,,2026-07-17,2026-07-18
+"InnSight Technology, Inc.",US,medtech-and-devices,55,sec_form_d,Health care Form D issuer; name suggests ophthalmic technology but text provides no specifics.,,2026-07-17,2026-07-18
+OS Therapies Inc,US,therapeutics,53,sec_form_d,OS Therapies is a clinical-stage company developing cancer immunotherapies; text only confirms biotechnology industry group.,,2026-07-17,
+Shape Memory Medical Inc.,US,medtech-and-devices,53,sec_form_d,Shape Memory Medical develops shape-memory polymer medical devices; text only lists Other Health Care industry group.,,2026-07-17,
+"Cadrenal Therapeutics, Inc.",US,therapeutics,53,sec_form_d,Cadrenal Therapeutics develops anticoagulant drugs for cardiovascular patients; text only confirms biotechnology industry group.,,2026-07-17,
+"Sailie Bio, Inc.",US,unknown,52,sec_form_d,Biotechnology Form D issuer; text does not describe what the company does.,,2026-07-17,
 Minnesota Healthsolutions Corporation,US,digital-health,52,nih_reporter,Building a digital health app using telematics to support parents of teen drivers with ADHD.,,2026-07-17,
-"Glial Therapeutics, Llc",US,therapeutics,52,nih_reporter,Developing therapeutics targeting aVb8 integrin to restore microglial homeostasis for treating Alzheimer's disease.,,2026-07-17,
-Glycotest Inc.,US,diagnostics,48,sec_form_d,"Health care company (name suggests glycan-based testing), but text only states 'Other Health Care' without specifics.",,2026-07-17,
-OS Therapies Inc,US,therapeutics,48,sec_form_d,"Biotechnology Form D filer named as a therapeutics company, but text provides no description of its programs.",,2026-07-17,
-Shape Memory Medical Inc.,US,medtech-and-devices,48,sec_form_d,"'Medical' device-oriented health care filer; name suggests shape-memory implant technology, though text gives no detail.",,2026-07-17,
-"410 Medical, Inc.",US,medtech-and-devices,48,sec_form_d,"'Medical' health care company; likely device-focused, but text only lists 'Other Health Care'.",,2026-07-17,
-"Cadrenal Therapeutics, Inc.",US,therapeutics,48,sec_form_d,Biotechnology filer named as a therapeutics company; text does not specify the drug candidates involved.,,2026-07-17,
-GridAI Technologies Corp.,US,techbio-and-bioinformatics,48,sec_form_d,"Filed under Pharmaceuticals; name suggests AI-driven drug work, but text does not confirm what it does.",,2026-07-17,
-Pluristyx Inc.,US,tools-and-instruments,48,sec_form_d,Biotechnology Form D issuer; name suggests stem-cell/pluripotent cell products but text gives no detail.,,2026-07-17,
-Plans4Care Inc.,US,digital-health,46,nih_reporter,Digital platform delivering personalized evidence-based dementia care plans and tele-support to family caregivers.,,2026-07-17,
-"Pascall Systems, Incorporated",US,medtech-and-devices,46,nih_reporter,Developing an FDA-cleared intraoperative EEG monitor with personalized algorithms to manage anesthesia depth in elderly patients.,,2026-07-17,
-Lifebio Inc,US,digital-health,46,nih_reporter,Online AI-enhanced reminiscence therapy platform aiming to improve wellbeing of older adults with mild cognitive impairment.,,2026-07-17,
-"SelSym Biotech, Inc.",US,unknown,45,sec_form_d,Biotech Form D filer; text provides no description of its technology or products.,,2026-07-17,
-Nerveli Inc.,US,unknown,45,sec_form_d,Health-care Form D issuer; no text describing what the company does.,,2026-07-17,
-"InnSight Technology, Inc.",US,unknown,45,sec_form_d,Health-care Form D issuer; name suggests ophthalmic tech but text provides no description.,,2026-07-17,
-Wesper Inc.,US,medtech-and-devices,43,sec_form_d,Health-care Form D issuer; Wesper is associated with sleep monitoring but text gives no detail.,,2026-07-17,
+"Glial Therapeutics, Llc",US,therapeutics,52,nih_reporter,Develops therapeutics targeting aVb8 integrin to restore microglia-astrocyte homeostasis for treating Alzheimer's disease.,,2026-07-17,
+Glycotest Inc.,US,diagnostics,48,sec_form_d,Glycotest is a liver disease diagnostics company; text only lists Other Health Care industry group.,,2026-07-17,
+"410 Medical, Inc.",US,medtech-and-devices,48,sec_form_d,410 Medical develops resuscitation and fluid delivery devices; text only lists Other Health Care industry group.,,2026-07-17,
+GridAI Technologies Corp.,US,techbio-and-bioinformatics,48,sec_form_d,Filed under Pharmaceuticals; name suggests AI-driven drug work but text provides no actual description.,,2026-07-17,
+Pluristyx Inc.,US,tools-and-instruments,48,sec_form_d,Biotechnology Form D issuer named Pluristyx; likely stem-cell/cell-therapy tools but text lacks specifics.,,2026-07-17,
+Plans4Care Inc.,US,digital-health,46,nih_reporter,Offers a digital platform delivering personalized dementia care plans and tele-support to family caregivers.,,2026-07-17,
+"Pascall Systems, Incorporated",US,medtech-and-devices,46,nih_reporter,"Develops FDA-cleared EEG brain monitor and algorithms for personalized anesthetic depth management, especially in elderly patients.",,2026-07-17,
+Lifebio Inc,US,digital-health,46,nih_reporter,Provides an AI-enhanced online reminiscence therapy platform to improve wellbeing of older adults with cognitive impairment.,,2026-07-17,
+"Neurobehavioral Systems, Inc.",US,digital-health,46,nih_reporter,"Provides computerized, at-home cognitive assessment batteries with normative data across diverse demographic groups for Alzheimer's evaluation.",,2026-07-17,
+Nerveli Inc.,US,unknown,45,sec_form_d,Health care Form D issuer; text gives no information about what the company does.,,2026-07-17,
+Wesper Inc.,US,medtech-and-devices,43,sec_form_d,Health care Form D issuer; Wesper is known for sleep monitoring devices but text gives no detail.,,2026-07-17,
 Aspire Therapy Holdings LP,US,unknown,42,sec_form_d,Health-care holding entity filing a Form D; text does not specify what it does beyond 'Other Health Care.',,2026-07-17,
-"Innovative Design Labs, Inc.",US,medtech-and-devices,41,nih_reporter,Develops non-contact sensing devices to measure gait and monitor cognitive decline in Alzheimer's-risk individuals and for sleep studies.,,2026-07-17,
-Revel Pharmaceuticals Inc.,US,diagnostics,41,nih_reporter,"Develops enzymatic assays to rapidly and cheaply measure advanced glycation/lipoxidation end products, molecular hallmarks of aging and disease.",,2026-07-17,
-"Via Therapeutics, Llc",US,therapeutics,41,nih_reporter,Developing a shelf-stable thin-film freeze-dried dry powder universal influenza vaccine deliverable without cold-chain storage.,,2026-07-17,
-"Lasarrus Clinic And Research Center, Inc.",US,medtech-and-devices,41,nih_reporter,Building a wearable multimodal acoustic sensor system for remote monitoring of COPD patients' breathing.,,2026-07-17,
-Senaptec Inc.,US,medtech-and-devices,41,nih_reporter,"Makes stroboscopic eyewear for sensory training and rehabilitation, now targeting fall prevention in older adults.",,2026-07-17,
+"Innovative Design Labs, Inc.",US,medtech-and-devices,41,nih_reporter,Develops non-contact sensing devices measuring gait for cognitive-decline monitoring and point-of-care sleep studies.,,2026-07-17,
+Revel Pharmaceuticals Inc.,US,tools-and-instruments,41,nih_reporter,Developing enzymatic assays to rapidly and cheaply measure advanced glycation/lipoxidation end products for aging research.,,2026-07-17,
+"Via Therapeutics, Llc",US,therapeutics,41,nih_reporter,Developing a shelf-stable thin-film freeze-dried universal mucosal influenza vaccine via thin-film freezing technology.,,2026-07-17,
+"Lasarrus Clinic And Research Center, Inc.",US,medtech-and-devices,41,nih_reporter,Developing a wearable acoustic sensor system for remote monitoring of COPD patients' breathing.,,2026-07-17,
+Senaptec Inc.,US,medtech-and-devices,41,nih_reporter,"Develops stroboscopic eyewear for sensory training and rehabilitation, now adapted to improve balance and reduce fall risk in older adults.",,2026-07-17,
 "Zwicoat Materials Innovations, Llc",US,medtech-and-devices,41,nih_reporter,Developing an antifouling zwitterionic hydrogel coating for cochlear implants to reduce fibrosis and improve performance.,,2026-07-17,
 "Survey Genomics, Inc.",US,tools-and-instruments,41,nih_reporter,Developing droplet-based spatial barcoding assays for spatially-resolved single-cell multiomics research.,,2026-07-17,
-Applied Universal Dynamics Corporation,US,digital-health,41,nih_reporter,Building a mobile informatics app to help caregivers of people with memory concerns coordinate care and reduce isolation.,,2026-07-17,
-"Tymora Analytical Operations, Llc",US,diagnostics,41,nih_reporter,Developing a minimally-invasive plasma extracellular-vesicle protein biomarker assay for early Alzheimer's detection.,,2026-07-17,
-"Toi Labs, Inc.",US,medtech-and-devices,41,nih_reporter,Makes an internet-connected replacement toilet seat that images urine and stool to capture digital health biomarkers.,,2026-07-17,
+Applied Universal Dynamics Corporation,US,digital-health,41,nih_reporter,Builds a mobile informatics app to support caregivers of people with memory concerns through social engagement and care coordination.,,2026-07-17,
+"Tymora Analytical Operations, Llc",US,diagnostics,41,nih_reporter,Develops plasma extracellular-vesicle protein biomarker assays for minimally-invasive early detection of Alzheimer's disease.,,2026-07-17,
+"Toi Labs, Inc.",US,medtech-and-devices,41,nih_reporter,"Makes TrueLoo, an internet-connected toilet seat that images and analyzes urine and stool to capture digital health biomarkers.",,2026-07-17,
 "Tsrl, Inc.",US,therapeutics,41,nih_reporter,Developing a microneedle patch delivery of trospium chloride for overactive bladder to improve tolerance.,,2026-07-17,
 "Sonoran Biosciences, Inc.",US,therapeutics,41,nih_reporter,Developing an injectable extended-release gel-forming bupivacaine for multi-day opioid-free postoperative pain control.,,2026-07-17,
 "Autoivf, Inc.",US,medtech-and-devices,41,nih_reporter,Developing an automated microfluidic device for oocyte retrieval and denudation to streamline IVF workflows.,,2026-07-17,
-"Amydis Diagnostics, Inc.",US,diagnostics,41,nih_reporter,"Developing a topical retinal tracer to detect TDP-43 pathology for non-invasive diagnosis of ALS, FTD, and LATE.",,2026-07-17,
-"Neurobehavioral Systems, Inc.",US,digital-health,41,nih_reporter,Provides an at-home computerized cognitive assessment battery and normative data for age-related cognitive decline across demographic groups.,,2026-07-17,
-Callahan-Young Llc,US,digital-health,41,nih_reporter,"Developed Jigsawdio, a personalized audiovisual jigsaw puzzle intervention for people living with dementia.",,2026-07-17,
+"Amydis Diagnostics, Inc.",US,diagnostics,41,nih_reporter,"Develops topical retinal tracers to detect TDP-43 pathology for non-invasive diagnosis of ALS, FTD, and LATE.",,2026-07-17,
+Callahan-Young Llc,US,medtech-and-devices,41,nih_reporter,"Developed Jigsawdio, a personalized audiovisual jigsaw puzzle intervention to improve cognition and mental health in dementia patients.",,2026-07-17,
 "Light Wave Holding Company, LLC",US,unknown,38,sec_form_d,Health-care holding company Form D issuer with no descriptive text.,,2026-07-17,
-Visibuilt,Denmark,industrial-biotech,25,news,Danish startup developing a mycelium-based binder for construction materials; raised €3.34M seed.,,2026-07-17,
-Sightera,Belgium,techbio-and-bioinformatics,25,news,Belgian startup using AI and 'extreme' patient biology to reverse the drug discovery process; raised €3M.,,2026-07-17,
+"AdvanCell, Inc.",US,therapeutics,27,sec_form_d,"AdvanCell filed as Biotechnology; text provides no specifics, though the company is known for targeted alpha radiotherapy (not stated here).",,2026-07-17,
+Visibuilt,Denmark,industrial-biotech,25,news,Danish startup scaling a mycelium-based binder for construction materials; raised €3.34M seed.,,2026-07-17,
+Sightera,Belgium,therapeutics,25,news,Belgian biotech using AI drug discovery that learns from extreme patient biology first; raised €3M.,,2026-07-17,
 Zumutor Biologics,India,therapeutics,25,news,Indian biologics company advancing a novel cancer therapy into clinical trials; raised $7.3M.,,2026-07-17,
-Lyora Therapeutics,USA,therapeutics,25,news,Providence-based gene therapy startup developing treatments for inherited blindness; raised $2.5M pre-seed.,,2026-07-17,
-Nava,USA,therapeutics,25,news,Lipid nanoparticle startup targeting T cells and kidney; emerged with $89M.,,2026-07-17,
-Auxilium Health,USA,medtech-and-devices,25,news,Cleveland startup developing wound care technology; closed $3.4M seed round.,,2026-07-17,
-FACTOR X,unknown,therapeutics,25,news,Stealth startup developing an RNA-based platform for skin longevity.,,2026-07-17,
+Lyora Therapeutics,United States,therapeutics,25,news,Gene therapy startup in Providence developing treatments for inherited blindness; raised $2.5M pre-seed.,,2026-07-17,
+Nava,United States,therapeutics,25,news,Lipid nanoparticle startup targeting T cells and kidney; emerged with $89M funding.,,2026-07-17,
+Auxilium Health,United States,medtech-and-devices,20,news,Cleveland startup developing wound care technology; raised $3.4M seed round.,,2026-07-17,
+FACTOR X,unknown,therapeutics,20,news,Stealth-emerged company developing an RNA-based skin longevity platform.,,2026-07-17,
 "DARO, Inc",US,ag-and-food-tech,20,biorxiv,Developing an environmental surveillance system for early detection of PRRSV virus in swine herds.,,2026-07-17,
 SANSHI Bio Solutions Pvt Ltd,US,techbio-and-bioinformatics,20,biorxiv,"SANSHI Bio Solutions builds PTIm-mAb, an AI/ML platform for multi-objective design and developability optimization of therapeutic bispecific antibodies.",,2026-07-17,
 Regel Therapeutics,US,therapeutics,20,biorxiv,Regel Therapeutics develops AAV-delivered CRISPR-activation gene therapy (RT101) to upregulate SCN1A for Dravet syndrome; currently preclinical.,,2026-07-17,
 NIRSense Inc.,US,medtech-and-devices,20,medrxiv,Develops a wearable near-infrared spectroscopy device (Envello Core) for tissue oximetry phenotyping in heart failure patients.,,2026-07-17,
-Mandrake Bio,India,techbio-and-bioinformatics,20,news,Indian startup building an AI-powered gene editing platform; raised ₹16 crore pre-seed.,,2026-07-17,
-"AdvanCell, Inc.",US,unknown,17,sec_form_d,Form D filer listed under Biotechnology; the text does not specify what the company develops.,,2026-07-17,
-"Dash Bio, Inc.",US,unknown,17,sec_form_d,Biotechnology Form D issuer with no descriptive text about its actual product or focus.,,2026-07-17,
-Cambrian BioPharma Inc,US,therapeutics,15,sec_form_d,BioPharma Form D filer under Biotechnology; text gives no detail beyond the industry group.,,2026-07-17,
+Cambrian BioPharma Inc,US,therapeutics,20,sec_form_d,Cambrian BioPharma is a longevity-focused therapeutics holding company; text only lists biotechnology industry group.,,2026-07-17,
+"Mindverse Computing LLC, WA, USA",US,techbio-and-bioinformatics,20,biorxiv,Computing company developing graph-neural-network port-Hamiltonian models of cellular dynamics from omics data.,,2026-07-17,
+"Enloq, Inc.",US,techbio-and-bioinformatics,20,biorxiv,Applies computational/ML modeling to predict skin penetration of bioactive cosmetic and dermatological peptides.,,2026-07-17,
+"Dash Bio, Inc.",US,unknown,17,sec_form_d,Health care Form D issuer named Dash Bio; text provides no description of actual activities.,,2026-07-17,
 "AnyHelix Ltd., The Cloud, Tai Kok Tsui, Hong Kong, China",US,techbio-and-bioinformatics,15,biorxiv,Text is a bibliometric/LLM analysis of cancer genomics literature and does not clearly state what AnyHelix Ltd itself does as a business.,,2026-07-17,
-"Mindverse Computing LLC, WA, USA",US,techbio-and-bioinformatics,15,biorxiv,Mindverse Computing develops graph-neural-network surrogate models of cellular dynamics using a port-Hamiltonian framework on multi-omics data.,,2026-07-17,
-Decision Sciences LLc,US,techbio-and-bioinformatics,15,biorxiv,Decision Sciences LLC presents a spatial agent-based computational model of AGE-RAGE feedback in hepatic fibrosis; likely a modeling/analytics outfit.,,2026-07-17,
-"Enloq, Inc.",US,techbio-and-bioinformatics,15,biorxiv,"Enloq works on computational prediction of bioactive peptide skin penetration for cosmetic/dermatological actives, reframing the modeling problem.",,2026-07-17,
+Decision Sciences LLc,US,techbio-and-bioinformatics,15,biorxiv,Develops spatial agent-based computational models of AGE-RAGE feedback in hepatic fibrosis to predict irreversibility thresholds and biomarkers.,,2026-07-17,
+Mandrake Bio,India,unknown,10,news,Indian startup that raised Rs 16 crore pre-seed; text does not describe what they do.,,2026-07-17,
