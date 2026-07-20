@@ -2,8 +2,11 @@ name: Weekly Biotech Scout
 
 on:
   schedule:
-    # 13:00 UTC every Monday (~8am ET / 9am ET depending on DST).
-    - cron: "0 13 * * 1"
+    # 13:37 UTC every Monday (~9:37am ET summer / 8:37am ET winter).
+    # Deliberately an odd minute, NOT the top of the hour: GitHub delays or
+    # silently drops scheduled runs during peak load, and :00 is the most
+    # congested slot. An off-peak minute markedly improves on-time firing.
+    - cron: "37 13 * * 1"
   workflow_dispatch:
     inputs:
       dry_run:
