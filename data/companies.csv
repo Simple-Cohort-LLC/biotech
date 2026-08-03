@@ -1,5 +1,92 @@
 name,country,sector,score,sources,summary,website,first_seen_on,reported_on
-Gamgee,US,therapeutics,77,yc,"Develops personalized mRNA cancer vaccines for dogs, sequencing tumors to design tailored immunotherapy, running veterinary clinical trials in Australia.",https://gamgee.io/,2026-07-27,2026-07-27
+Enjamb Labs,US,techbio-and-bioinformatics,77,yc,AI platform connecting agents to pharma's legacy systems to run drug programs from discovery through FDA submission.,https://www.enjamb.ai,2026-08-03,2026-08-03
+Infera,US,tools-and-instruments,77,yc,"Natural-language platform that turns plain-English experiment descriptions into validated, instrument-ready lab runs.",https://www.infera.bio,2026-08-03,2026-08-03
+Mangrove Therapeutics Inc.,US,therapeutics,72,sec_form_d,"Form D biotech issuer; name indicates a therapeutics developer, no further detail given.",,2026-08-03,2026-08-03
+"PushCART Therapeutics, Inc.",US,therapeutics,72,sec_form_d,"Form D biotech issuer; name suggests CAR-T cell therapeutics, no further detail provided.",,2026-08-03,2026-08-03
+Gutgutgoose,US,therapeutics,72,yc,"Startup offering personalized probiotics designed via gut metabolic modeling from stool sequencing, with re-sequencing to verify colonization.",https://gutgutgoose.com/,2026-08-03,2026-08-03
+"ORF Biologics, Inc.",US,therapeutics,67,sec_form_d,Form D biotech issuer; name suggests biologics development but text lacks specifics.,,2026-08-03,2026-08-03
+Research Discovery Innovation Inc.,US,therapeutics,67,sec_form_d,Form D pharmaceuticals issuer; name is generic and text does not describe specific activities.,,2026-08-03,2026-08-03
+Scoop,US,techbio-and-bioinformatics,62,yc,AI agents automating regulatory IND submission document prep to speed biotechs to first-in-human trials.,https://scooplabs.ai,2026-08-03,2026-08-03
+"StimCardio Medical, Inc.",US,medtech-and-devices,60,sec_form_d,Name and filing suggest a cardiac electrical-stimulation medical device company; only Form D 'Other Health Care' text provided.,,2026-08-03,2026-08-03
+Rasyn,US,techbio-and-bioinformatics,60,yc,Y Combinator startup building 'general intelligence for chemistry'; details on specific application are thin.,https://www.rasyn.ai/,2026-08-03,2026-08-03
+"Full Health Clarity, Inc.",US,unknown,57,sec_form_d,Form D 'Other Health Care' issuer; text gives no detail on what they do.,,2026-08-03,2026-08-03
+"KaiAvora Health, LLC",US,unknown,57,sec_form_d,Form D health-care issuer; no description of activities provided.,,2026-08-03,2026-08-03
+LiLi MD Group Inc,US,unknown,57,sec_form_d,Form D health-care issuer; possibly a medical practice group but text does not say.,,2026-08-03,2026-08-03
+"Oro Muscles, Inc.",US,unknown,57,sec_form_d,Form D biotech issuer; name references muscles but text gives no actual description.,,2026-08-03,2026-08-03
+"Brio Health, Inc.",US,unknown,57,sec_form_d,Form D health-care issuer; text provides no description of activities.,,2026-08-03,2026-08-03
+"Born Science, LLC",US,unknown,57,sec_form_d,Form D biotech issuer; text provides no description of what they do.,,2026-08-03,2026-08-03
+ALM Ortho Inc,US,medtech-and-devices,55,sec_form_d,Form D health-care issuer; name suggests orthopedic devices but text lacks specifics.,,2026-08-03,2026-08-03
+"Carallel, Inc.",US,digital-health,55,sec_form_d,Form D health-care issuer; possibly a caregiver-support platform but text does not specify.,,2026-08-03,2026-08-03
+"Pharmazz, Inc.",US,therapeutics,55,sec_form_d,"Pharmaceuticals Form D issuer; presumably a drug developer, but no specifics given in the text.",,2026-08-03,2026-08-03
+"ScopeRemote, Inc.",US,unknown,52,sec_form_d,"Other Health Care Form D issuer named ScopeRemote; possibly remote endoscopy/scope tech, but no description provided.",,2026-08-03,
+"Impact Proteomics, Llc",US,diagnostics,52,nih_reporter,Immunoproteomics IP-to-mass-spectrometry platform for unbiased autoantibody profiling to diagnose and monitor autoimmune diseases.,,2026-08-03,
+Magnendo Corp.,US,unknown,50,sec_form_d,Form D biotech issuer; text gives no detail on activities.,,2026-08-03,
+Accipiter Biosciences Inc.,US,unknown,50,sec_form_d,Biotechnology Form D issuer named Accipiter Biosciences; no description of its actual product or focus provided.,,2026-08-03,
+"Simbryo Technologies, Inc.",US,unknown,50,sec_form_d,Biotechnology Form D issuer named Simbryo; no description of its focus provided in the text.,,2026-08-03,
+"Enumera Molecular, Inc.",US,diagnostics,48,sec_form_d,Form D health-care issuer; name suggests molecular diagnostics but text does not specify.,,2026-08-03,
+"Genomenon, Inc.",US,techbio-and-bioinformatics,48,sec_form_d,Form D biotech issuer; name suggests genomic data/informatics but text gives no detail.,,2026-08-03,
+"Pop Biotechnologies, Inc",US,therapeutics,47,nih_reporter,"Developing a liposome-based (SNAP/CoPoP) active immunotherapy vaccine platform, here applied to an ApoB peptide vaccine against atherosclerosis.",,2026-08-03,
+"Omegaquant Analytics, Llc",US,diagnostics,47,nih_reporter,Developing blood fatty-acid-based machine-learning algorithms to predict risk of macular degeneration and glaucoma.,,2026-08-03,
+"Isa Associates, Inc.",US,digital-health,47,nih_reporter,Developing a mobile stress-management and medication-adherence intervention to reduce hypertension in manual/trade labor workers.,,2026-08-03,
+"Illumination Diagnostics, Inc.",US,medtech-and-devices,47,nih_reporter,Developing a continuous transpalpebral pupillometer to monitor pupillary reflexes through closed eyelids for detecting brain swelling and vision loss.,,2026-08-03,
+Panluminate Inc.,US,tools-and-instruments,47,nih_reporter,Developing an AI-enabled pan-expansion-microscopy imaging platform and instrument for renal pathology diagnostics and connectomics.,,2026-08-03,
+"Fimbrion Therapeutics, Inc.",US,therapeutics,47,nih_reporter,Developing small-molecule QcrB inhibitors as novel antibiotics for nontuberculous mycobacterial pulmonary infections.,,2026-08-03,
+Results Group,US,medtech-and-devices,47,nih_reporter,Developing exoskeleton-embedded footwear brace for children with Charcot-Marie-Tooth disease as a comfortable orthosis alternative.,,2026-08-03,
+"Perfusion Solutions, Inc.",US,medtech-and-devices,47,nih_reporter,Developing a bearingless cavopulmonary assist pump for single-ventricle congenital heart disease patients after Fontan palliation.,,2026-08-03,
+"Intra Therapeutics, Inc.",US,therapeutics,47,nih_reporter,"Developing IT-001, an injectable hydrogel co-formulated with IL-12 for sustained intratumoral cancer immunotherapy.",,2026-08-03,
+"Haystack Medical, Inc.",US,medtech-and-devices,46,nih_reporter,Columbia spin-out developing ultrasharp microneedle system to access the cochlea for inner-ear fluid sampling and drug delivery; first-in-human trial.,,2026-08-03,
+Levee Medical Inc,US,medtech-and-devices,46,nih_reporter,"Developing the Voro Urological Scaffold, a resorbable implant placed during prostatectomy to prevent post-surgical urinary incontinence.",,2026-08-03,
+"Neurologic Solutions, Inc.",US,diagnostics,46,nih_reporter,"Developing EpiScalp, an EEG analytics algorithm producing a risk score to improve epilepsy diagnostic accuracy.",,2026-08-03,
+Zvelt Therapeutics Inc.,US,therapeutics,46,nih_reporter,Developing an adipose-targeted AAV gene therapy for the rare metabolic disorder lipodystrophy.,,2026-08-03,
+Neuralthread Inc,US,tools-and-instruments,46,nih_reporter,Building an integrated high-density flexible-probe neural recording system for freely moving non-human primates.,,2026-08-03,
+"Openbci, Inc.",US,medtech-and-devices,46,nih_reporter,"Developing an affordable, FDA-cleared open-source bioamplifier for scalable EEG and multimodal physiological monitoring.",,2026-08-03,
+"Syntrix Biosystems, Inc.",US,therapeutics,46,nih_reporter,Developing CXCR1/2 inhibitor SX-682 combined with enzalutamide for abiraterone-resistant metastatic castration-resistant prostate cancer.,,2026-08-03,
+"Oui Therapeutics, Inc",US,digital-health,46,nih_reporter,"Developing OTX-601, a mobile-app digital therapeutic delivering cognitive-behavioral treatment for adults with PTSD.",,2026-08-03,
+Conexeu Sciences Inc.,US,unknown,45,sec_form_d,Form D biotech issuer; text does not say what they do beyond the biotechnology industry label.,,2026-08-03,
+Biosceptre International Ltd,US,unknown,45,sec_form_d,Biotechnology Form D issuer; text gives no detail on what Biosceptre International develops.,,2026-08-03,
+"Acatechol, Inc.",US,medtech-and-devices,41,nih_reporter,Develops antibiofilm zwitterionic-coated central venous catheters to prevent central-line-associated bloodstream infections; Phase II SBIR building prototypes.,,2026-08-03,
+"Objective Biotechnology, Inc.",US,tools-and-instruments,41,nih_reporter,University of Minnesota spin-out building computer-vision-guided robots that automate embryo microinjection for transgenics and gene editing across species.,,2026-08-03,
+Integral Molecular,US,tools-and-instruments,41,nih_reporter,"Antibody discovery company using mRNA to generate monoclonal antibodies against understudied membrane proteins (GPCRs, ion channels) for research and therapeutics.",,2026-08-03,
+Voicelove Inc.,US,digital-health,41,nih_reporter,Building an app-based communication tool to address ICU delirium and improve family engagement in critically ill patients.,,2026-08-03,
+"Rise Therapeutics, Llc",US,therapeutics,41,nih_reporter,Developing an oral L. lactis probiotic-based immunotherapy to induce regulatory T-cell tolerance for rheumatoid arthritis.,,2026-08-03,
+Attogene,US,diagnostics,41,nih_reporter,Developing a portable lateral-flow detection system for the cyanobacterial water toxin dihydroanatoxin-a.,,2026-08-03,
+"Outlier Technology, Llc",US,digital-health,41,nih_reporter,"Developing NeuroSync, a music-based augmented-reality neurorehabilitation platform of games to stimulate neuroplasticity in Alzheimer's patients.",,2026-08-03,
+Celestial Therapeutics Inc.,US,therapeutics,41,nih_reporter,Developing a dry-powder inhalation drug based on an endogenous pulmonary surfactant lipid as antiviral/anti-inflammatory treatment for RSV.,,2026-08-03,
+"Jan Biotech, Inc.",US,diagnostics,41,nih_reporter,Developing a chemical amplification assay to detect and quantify latent HIV-1 RNA reservoirs in treated patients to guide treatment.,,2026-08-03,
+Vortex Medical Inc.,US,medtech-and-devices,41,nih_reporter,Developing a novel vesico-amniotic shunt device with improved anchoring to treat fetal lower urinary tract obstruction.,,2026-08-03,
+"Aldatu Biosciences, Inc.",US,diagnostics,41,nih_reporter,Developing PANDAA qPCR molecular diagnostics for pan-lineage detection of Crimean-Congo hemorrhagic fever virus.,,2026-08-03,
+"Oak Therapeutics, Inc.",US,therapeutics,41,nih_reporter,"Developing oral dissolvable strip formulations of TB drugs (rifapentine, isoniazid) for latent tuberculosis treatment in children and adults.",,2026-08-03,
+"Venova Technologies, Inc.",US,medtech-and-devices,41,nih_reporter,"Developing a long-acting, non-hormonal female contraceptive device aiming toward IDE and clinical trials.",,2026-08-03,
+"Patchclamp Medtech, Inc.",US,medtech-and-devices,41,nih_reporter,Developing a device with bioabsorbable graft-clasp to repair and seal dural perforations in minimally invasive surgery.,,2026-08-03,
+"Ridgeline Therapeutics, Inc.",US,therapeutics,41,nih_reporter,Developing an NNMT-inhibitor small molecule to prevent muscle loss and enhance weight loss alongside obesity treatments.,,2026-08-03,
+"Aromha, Inc.",US,diagnostics,41,nih_reporter,Web-based at-home smell-card test using olfactory assessment and machine learning to screen for preclinical Alzheimer's disease.,,2026-08-03,
+"Nephrodi Therapeutics, Inc.",US,therapeutics,41,nih_reporter,Developing a first-in-class AMPK-activator drug (NDI-5001) for pediatric congenital X-linked nephrogenic diabetes insipidus.,,2026-08-03,
+"Altec, Inc.",US,digital-health,41,nih_reporter,"Building a smartphone/computer-vision app for remote neurological assessment, targeting Parkinson's disease monitoring via telemedicine.",,2026-08-03,
+Vivosphere Llc,US,tools-and-instruments,41,nih_reporter,Hydrogel-microsphere 3D tumor models made via microfluidic encapsulation for high-throughput cancer drug screening.,,2026-08-03,
+"Regennova, Inc.",US,therapeutics,41,nih_reporter,Developing an oral arginine-polyamine pathway inhibitor drug to treat ADPKD without Tolvaptan's liver toxicity.,,2026-08-03,
+"Riptide Bioscience, Inc.",US,therapeutics,41,nih_reporter,"Developing RP557, a designed host-defense antimicrobial peptide to prevent burn infections and accelerate wound healing.",,2026-08-03,
+"Resvita Bio, Inc.",US,therapeutics,41,nih_reporter,Developing engineered non-pathogenic skin bacteria that deliver protease inhibitors to treat atopic dermatitis.,,2026-08-03,
+"SleepRes, Inc.",US,medtech-and-devices,40,sec_form_d,"Other Health Care Form D issuer; name suggests sleep/respiratory technology, but no product description provided.",,2026-08-03,
+"Sonavex, Inc.",US,unknown,38,sec_form_d,Biotechnology Form D issuer named Sonavex; no description of its product provided.,,2026-08-03,
+"Boa Safra Ag, LLC",US,ag-and-food-tech,27,sec_form_d,Agriculture Form D issuer; likely an agricultural/ag-tech venture but no product description provided.,,2026-08-03,
+Upstream Biotechnology,unknown,ag-and-food-tech,25,news,Raised seed funding for 'on-demand' crop defense technology; specifics of the technology not described in text.,,2026-08-03,
+Accipiter Bio,United States,therapeutics,25,news,AI drug developer that raised a $10.5M seed round; specific therapeutic focus not described in text.,,2026-08-03,
+Adjuvia Therapeutics,United States,therapeutics,25,news,Raised $8M seed to advance lead candidate ATI-105 for mitochondrial dysfunction/disease into clinical trials.,,2026-08-03,
+Quercus Biosolutions,unknown,ag-and-food-tech,25,news,Develops designer proteins to target herbicide-resistant weeds; closed $5M seed round.,,2026-08-03,
+Biota,United States,diagnostics,25,news,Environmental diagnostics firm scaling commercial PFAS testing technologies; raised $3M seed.,,2026-08-03,
+Dopl Technologies,United States,medtech-and-devices,25,news,Develops telerobotic ultrasound technology advancing toward FDA clearance; raised $6.3M seed.,,2026-08-03,
+Xeltis,Netherlands,medtech-and-devices,25,news,Develops artificial blood vessels and heart valves replaced by patients' own tissue; raised €20.5M.,,2026-08-03,
+Mirae,unknown,digital-health,25,news,Turns patient text messages into structured data for doctors; raised $5.4M.,,2026-08-03,
+"Ratio Therapeutics, Inc.",US,therapeutics,20,sec_form_d,"Form D pharmaceuticals issuer; name indicates a therapeutics developer, no further detail given.",,2026-08-03,
+"NextPoint Therapeutics, Inc.",US,therapeutics,20,sec_form_d,"Form D biotech issuer; name indicates a therapeutics developer, no further detail given.",,2026-08-03,
+"BrainStorm Therapeutics, Inc., San Diego, USA",US,techbio-and-bioinformatics,20,biorxiv,Builds computational gene-network framework (scGENet) from single-cell foundation models to study Parkinson's disease mechanisms.,,2026-08-03,
+Tensor Bio,US,techbio-and-bioinformatics,20,biorxiv,Develops protein structure search algorithms (Reseek) for large-scale structural database querying.,,2026-08-03,
+"MicroTrace BioAI, Inc.",US,diagnostics,20,medrxiv,"Develops cfDNA methylation-based, AI-driven blood tests for gastrointestinal cancer detection.",,2026-08-03,
+DITTO,unknown,digital-health,20,news,Operates a menstrual health research platform; raised $6 million to expand it.,,2026-08-03,
+"MolTek Nutrition Co., Ltd",US,ag-and-food-tech,15,biorxiv,Nutrition company developing a stabilized tyrosol supplement (CreaSol) to enhance creatine's muscle-performance effects.,,2026-08-03,
+"Research and Development, Amaara Botanicals Private Limited, Gurugram, India",US,ag-and-food-tech,15,medrxiv,Botanicals company selling a standardized shilajit resin supplement for muscle strength and exercise recovery.,,2026-08-03,
+MiNDERA Corp,US,unknown,5,sec_form_d,Biotechnology Form D issuer named Mindera; no description of its technology provided in the text.,,2026-08-03,
+Gamgee,US,therapeutics,77,yc,"Builds end-to-end platform for personalized mRNA cancer vaccines for dogs, sequencing tumors to design immune-targeting treatments.",https://gamgee.io/,2026-07-27,2026-07-27
 BioGene Therapeutics Inc.,US,therapeutics,67,sec_form_d,Biotechnology Form D issuer focused on therapeutics per its name; the filing provides no program details.,,2026-07-27,2026-07-27
 "InterAct Therapeutics, Inc.",US,therapeutics,67,sec_form_d,Therapeutics-named company filed under Other Health Care; no specific product detail in text.,,2026-07-27,2026-07-27
 "OPERATING ROOM INNOVATIONS, INC.",US,medtech-and-devices,67,sec_form_d,"Name suggests surgical/operating room innovations; filed under Other Health Care, likely a medical device company.",,2026-07-27,2026-07-27
@@ -7,13 +94,14 @@ Mafix Inc.,US,ag-and-food-tech,60,sec_form_d,Agriculture-classified Form D issue
 "THINKMED HOLDINGS, LLC",US,unknown,57,sec_form_d,Health care holding company Form D issuer; the text provides no description of its actual business.,,2026-07-27,2026-07-27
 "ASCENDIA PHARMACEUTICALS, INC.",US,therapeutics,55,sec_form_d,Pharmaceutical company per Form D (Other Health Care); the filing does not describe its specific products or therapeutic focus.,,2026-07-27,2026-07-27
 Healome Therapeutics,unknown,therapeutics,55,news,Therapeutics company raising capital; text is only a headline with no detail on its actual programs.,,2026-07-27,2026-07-27
+"ESTRIGENIX THERAPEUTICS, INC.",US,therapeutics,55,sec_form_d,Pharmaceuticals Form D issuer named Estrigenix Therapeutics; likely drug developer but no specifics provided.,,2026-07-27,2026-08-03
 Langley Health Inc.,US,unknown,52,sec_form_d,Health care Form D issuer; the text provides no information about its actual business.,,2026-07-27,
 "Neosplice Therapeutics, Inc.",US,therapeutics,52,nih_reporter,Proteogenomic platform discovering splice-derived surface antigens as novel immunotherapy targets.,,2026-07-27,
-Keylicon Biosciences Inc,US,therapeutics,52,nih_reporter,Developing a multivalent self-amplifying RNA vaccine against Lyme disease using modified nucleotides compatible with saRNA.,,2026-07-27,
+Keylicon Biosciences Inc,US,therapeutics,52,nih_reporter,Developing a low-dose multivalent self-amplifying RNA influenza vaccine using modified nucleotides to reduce innate immune activation.,,2026-07-27,
 "MeridianMade, Inc.",US,unknown,50,sec_form_d,Form D issuer classified as Other Health Care; the text gives no indication of what the company actually does.,,2026-07-27,
 "TECLens, Inc.",US,unknown,50,sec_form_d,"Health care Form D issuer; text provides no description of its products, though the name hints at an ophthalmic focus.",,2026-07-27,
 Ignitus Inc.,US,unknown,50,sec_form_d,Form D issuer classified as Other Health Care; the text says nothing about what the company does.,,2026-07-27,
-"Blue Arbor Technologies, Inc.",US,unknown,50,sec_form_d,Biotechnology Form D issuer; text provides no description of technology or products.,,2026-07-27,
+"Blue Arbor Technologies, Inc.",US,unknown,50,sec_form_d,Biotechnology Form D issuer; text provides no information about what Blue Arbor Technologies does.,,2026-07-27,
 "Holobiome, Inc.",US,therapeutics,48,sec_form_d,Biotechnology Form D issuer whose name suggests microbiome work; the filing does not describe its actual products.,,2026-07-27,
 "ALZpath, Inc.",US,diagnostics,48,sec_form_d,"Named ALZpath, likely Alzheimer's-related; Form D biotech issuer but text gives no detail beyond industry group.",,2026-07-27,
 "Angelis Oncology, Inc.",US,therapeutics,47,sec_form_d,Oncology-focused biotechnology Form D issuer; the filing does not detail its specific drug programs.,,2026-07-27,
@@ -39,11 +127,10 @@ Cognixion Corporation,US,medtech-and-devices,41,nih_reporter,Developing a wearab
 "TYBR Health, Inc.",US,unknown,38,sec_form_d,Biotechnology Form D issuer; text does not specify what the company does.,,2026-07-27,
 "Candid Group, Inc.",US,unknown,30,sec_form_d,Form D issuer under Other Health Care; the text does not indicate what the company does.,,2026-07-27,
 Exsure,India,therapeutics,25,news,"Developing a method to make chemotherapy less toxic, backed by peer-reviewed research; details limited.",,2026-07-27,
-Immitra Bio,Switzerland,therapeutics,25,news,"Advancing an in-vivo gene editing platform, having raised CHF 2.4 million; specific indications not stated.",,2026-07-27,
+Immitra Bio,Switzerland,therapeutics,25,news,Develops in-vivo gene editing therapies; raised CHF 2.4 million.,,2026-07-27,
 Synaptiq,Iceland,therapeutics,25,news,Iceland-based startup launching with a rare disease drug licensed from Nobias.,,2026-07-27,
 Kaveri Therapeutics,United States,therapeutics,25,news,"US spinout from Lupin developing clinical-phase cancer assets, seeded with cash and drug candidates.",,2026-07-27,
 Bioscan Research,India,diagnostics,25,news,"India-based company developing AI-powered brain diagnostics, raised $1 million to expand.",,2026-07-27,
-Estrigenix Therapeutics,United States,therapeutics,25,news,Seed-stage company advancing ERβ platform for women's health and neurodegenerative diseases.,,2026-07-27,
 N-Zyme Biomedical,unknown,therapeutics,25,news,Biomedical company that closed a $4.6M Series A to advance clinical development; specific focus not stated.,,2026-07-27,
 Rinascera,unknown,therapeutics,25,news,Startup launching with two therapies for rare genetic skin diseases.,,2026-07-27,
 Rege Nephro,Japan,therapeutics,25,news,Japan-based company advancing kidney-related therapy RN-014 toward commercialization.,,2026-07-27,
@@ -87,20 +174,20 @@ Expanse Bio Llc,US,medtech-and-devices,41,nih_reporter,"Developing nanowarming a
 Sightera Biosciences,Belgium,techbio-and-bioinformatics,25,news,Belgian startup running a patient-derived AI drug discovery platform generating molecular glues.,,2026-07-20,
 Creyon Bio,US,therapeutics,20,biorxiv,Developing oligonucleotide therapeutics; here using a TfR1-targeting aptamer to enhance ASO/siRNA delivery to muscle tissue.,,2026-07-20,
 Mindrank,China,techbio-and-bioinformatics,20,news,"Chinese AI drug-discovery company advancing an oral GLP-1, raised $52M Series B.",,2026-07-20,
-Illume Labs,US,digital-health,77,yc,"AI personal health/longevity companion integrating wearables, blood panels, and genomic data to deliver personalized insights via text.",https://www.illumelabs.ai,2026-07-18,2026-07-18
-Molagri,CA,ag-and-food-tech,77,yc,"Designs targeted biopesticides that kill pest insects while sparing pollinators, modeling resistance evolution to stay effective.",https://molagri.com,2026-07-18,2026-07-18
+Illume Labs,US,digital-health,77,yc,"AI personal health and longevity companion integrating wearables, blood panels, and genomic data to deliver personalized insights via text.",https://www.illumelabs.ai,2026-07-18,2026-07-18
+Molagri,CA,ag-and-food-tech,77,yc,Develops resistance-free biopesticides targeting pest-specific molecular targets while sparing pollinators and beneficial insects.,https://molagri.com,2026-07-18,2026-07-18
 10x Science,US,techbio-and-bioinformatics,77,yc,"AI-native platform automating protein therapeutic characterization for drug developers, spun from Bertozzi's Stanford lab.",https://10xscience.com,2026-07-18,2026-07-18
 "Aspicio Therapeutics, Inc.",US,therapeutics,62,sec_form_d,"Name suggests a therapeutics developer, but the Form D 'Other Health Care' filing gives no detail on what it does.",,2026-07-18,2026-07-18
-Anto Biosciences,US,techbio-and-bioinformatics,62,yc,Building a foundation model for gut microbiome to predict drug toxicity and efficacy and improve drug performance.,https://www.anto.bio/,2026-07-18,2026-07-18
+Anto Biosciences,US,techbio-and-bioinformatics,62,yc,Building a foundation model for gut microbiome to predict drug toxicity and efficacy across diverse populations.,https://www.anto.bio/,2026-07-18,2026-07-18
 Play Health,US,digital-health,62,yc,"Perimenopause care platform integrating symptom, medication, and lifestyle data to generate AI insights and clinical protocols for providers.",http://playhealth.com,2026-07-18,2026-07-18
-Panoptive,US,digital-health,62,yc,"AI platform that structures clinical trial monitoring data into deviation, safety, and quality findings with audit-ready oversight trails.",https://www.panoptive.com,2026-07-18,2026-07-18
-Convexia,US,therapeutics,62,yc,"AI-maximalist pharma platform using agents to source, evaluate, and clinically develop overlooked preclinical drug candidates.",https://convexia.bio,2026-07-18,2026-07-18
-Bramante,US,tools-and-instruments,62,yc,"Manufactures life-sciences instruments and reagents purpose-built for AI, automated labs, and personalized medicine.",https://www.bramantebio.com,2026-07-18,2026-07-18
-Frekil,IN,techbio-and-bioinformatics,62,yc,"Platform that accelerates real-world evidence generation from fragmented clinical data, running end-to-end studies in minutes.",https://www.frekil.com,2026-07-18,2026-07-18
-Delineate,US,techbio-and-bioinformatics,62,yc,AI agents that design clinical trials faster by processing existing trial research into specialized datasets.,https://delineate.pro/,2026-07-18,2026-07-18
-Exin Therapeutics,US,therapeutics,62,yc,AI-guided drug discovery using high-throughput mouse studies to develop neurotherapeutics for epilepsy in autism and Parkinson's.,https://www.exintherapeutics.com/,2026-07-18,2026-07-18
-TwentyTwo,US,synthetic-biology,57,yc,Building defensive AI infrastructure for biosecurity to prevent misuse of biology and pandemic threats.,https://twentytwo.bio/,2026-07-18,2026-07-18
-Synthio Labs,US,digital-health,57,yc,"Agentic AI platform enabling compliant engagement across HCPs, patients, and field teams for pharma go-to-market teams.",https://synthiolabs.com/,2026-07-18,2026-07-18
+Panoptive,US,techbio-and-bioinformatics,62,yc,Turns unstructured clinical trial monitoring data into structured safety and quality findings with audit-ready oversight trails.,https://www.panoptive.com,2026-07-18,2026-07-18
+Convexia,US,therapeutics,62,yc,"AI-maximalist pharma platform using agents to source, evaluate, and run clinical trials for drug candidates.",https://convexia.bio,2026-07-18,2026-07-18
+Bramante,US,tools-and-instruments,62,yc,"Makes life sciences reagents and software purpose-built for AI, automated labs, and personalized medicines.",https://www.bramantebio.com,2026-07-18,2026-07-18
+Frekil,IN,techbio-and-bioinformatics,62,yc,"Accelerates real-world evidence generation from clinical data, running end-to-end studies from design to analysis in minutes.",https://www.frekil.com,2026-07-18,2026-07-18
+Delineate,US,techbio-and-bioinformatics,62,yc,AI agents that design clinical trials faster by processing existing research into specialized datasets.,https://delineate.pro/,2026-07-18,2026-07-18
+Exin Therapeutics,US,therapeutics,62,yc,"AI-guided drug discovery for neurotherapeutics using high-throughput mouse studies, targeting epilepsy in autism and Parkinson's.",https://www.exintherapeutics.com/,2026-07-18,2026-07-18
+Synthio Labs,US,techbio-and-bioinformatics,62,yc,"Agentic AI platform enabling compliant engagement across HCPs, patients, and field teams for pharma go-to-market.",https://synthiolabs.com/,2026-07-18,2026-07-18
+TwentyTwo,US,techbio-and-bioinformatics,57,yc,Building AI infrastructure and defensive stack for biosecurity to prevent engineered pandemics.,https://twentytwo.bio/,2026-07-18,2026-07-18
 Principal Technologies Inc.,US,unknown,45,sec_form_d,Only a Form D biotechnology filing; the text gives no indication of what this company actually does.,,2026-07-18,
 Neuble AI,South Korea,diagnostics,25,news,South Korean startup developing AI-powered brain diagnostics.,,2026-07-18,
 NaturLoop,unknown,industrial-biotech,25,news,"Company making coconut-husk based panels, shipping first products to paying customers.",,2026-07-18,
